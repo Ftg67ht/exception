@@ -22,5 +22,5 @@ ul {
 }
 
 li:not(:last-child) {
-  margin-right: 60px;
+  margin-right: 80px;
 }
