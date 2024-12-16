@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 850px;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 28px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #ffc802;
+}
+
+li:not(:last-child) {
+  margin-right: 60px;
+}
